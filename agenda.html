@@ -1,0 +1,30 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>Agenda Virtual PHP</TITLE>
+</HEAD>
+<BODY>
+<H2>Agenda Virtual PHP</H2>
+<H1>Contactos</H1>
+
+Para guardar presione el botón<BR><BR>
+<FORM ACTION="guardar.php" METHOD="POST">
+Nombre: <INPUT TYPE="text" NAME="nombre" SIZE="30"><BR>
+Trabajo: <INPUT TYPE="text" NAME="trabajo" SIZE="30"><BR>
+Teléfono: <INPUT TYPE="text" NAME="telefono" SIZE="30"><BR>
+Dirección: <INPUT TYPE="text" NAME="direccion" SIZE="30"><BR>
+Otras: <INPUT TYPE="text" NAME="otras" SIZE="30"><BR><BR>
+<INPUT TYPE="submit" NAME="enviar" VALUE="Guardar!">
+<INPUT TYPE="reset" VALUE="Reset">
+</FORM>
+
+<H3>Buscar contacto</H3>
+<FORM ACTION="buscar.php" METHOD="POST">
+Nombre a buscar: <INPUT TYPE="text" NAME="buscar" SIZE="30">
+<INPUT TYPE="submit" NAME="enviar" VALUE="Buscar">
+</FORM>
+
+<BR>
+<A HREF="mostrar.php">Mostrar todos los contactos</A>
+</BODY>
+</HTML>

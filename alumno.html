@@ -1,0 +1,25 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<TITLE>Alumno</TITLE>
+</HEAD>
+<BODY>
+<FORM ACTION="datos_alumno.php" METHOD="POST">
+DATOS DEL ALUMNO:<BR><BR>
+Introduzca su nombre: <INPUT TYPE="text" NAME="nombre" SIZE="30"><BR><BR>
+Introduzca su teléfono: <INPUT TYPE="text" NAME="telefono" SIZE="12">
+Matriculado <INPUT TYPE="checkbox" NAME="matriculado" VALUE="si"><BR><BR>
+Enseñanza:<BR>
+<INPUT TYPE="radio" NAME="ensenanza" VALUE="secundaria">Secundaria
+<INPUT TYPE="radio" NAME="ensenanza" VALUE="bachillerato">Bachillerato<BR>
+<INPUT TYPE="radio" NAME="ensenanza" VALUE="un ciclo medio">Ciclo Medio
+<INPUT TYPE="radio" NAME="ensenanza" VALUE="un ciclo superior">Ciclo Superior<BR><BR>
+Mostrar datos:
+<SELECT NAME="mostrar">
+   <OPTION VALUE="pantalla" SELECTED>Por Pantalla
+   <OPTION VALUE="archivo">En Archivo datos.txt
+</SELECT><BR><BR>
+<INPUT TYPE="submit" NAME="enviar" VALUE="Enviar datos">
+</FORM>
+</BODY>
+</HTML>
